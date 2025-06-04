@@ -1,0 +1,87 @@
+.features {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(234, 224, 205);
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Updated Feature Boxes */
+
+.feature-box {
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 40px 20px 20px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-6px);
+}
+
+.feature-icon {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.feature-description {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.feature-link {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #000;
+  text-decoration: underline;
+}
+
+.coin-image {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.coin-image img {
+  max-width: 40%;
+  height: auto;
+}

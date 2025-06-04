@@ -34,7 +34,7 @@ const Coin = () => {
     const vsCurrency = currency?.name || "usd";
 
     fetch(
-      `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${vsCurrency}&days=10&interval=daily`,
+      `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${vsCurrency}&days=6&interval=daily`,
       options
     )
       .then(res => res.json())
