@@ -1,5 +1,5 @@
 import React from 'react';
-import './feature.css';
+import './Feature.css';
 
 import coinimage from '../../assets/coinimage.png'; // Assuming you have a coin image in your assets
 
